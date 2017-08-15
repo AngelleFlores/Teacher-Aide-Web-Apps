@@ -1,0 +1,13 @@
+CREATE TABLE Application (
+	id  int unsigned NOT NULL AUTO_INCREMENT,
+	fName varchar(25),
+	lName varchar(25),
+	depart varchar(50),
+	major varchar(50),
+	gpa decimal(3,2),
+	resume longblob,
+	rName varchar(255),
+	rMime varchar(255),
+	
+	PRIMARY KEY(id)
+);
